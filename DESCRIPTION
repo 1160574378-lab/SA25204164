@@ -1,0 +1,23 @@
+Package: SA25204164
+Type: Package
+Title: Horseshoe Prior for Bayesian Sparse Regression
+Version: 1.0
+Date: 2025-12-20
+Author: Xinran Wang
+Maintainer: Xinran Wang <1160574378@qq.com>
+Description: Implements the horseshoe prior for bayesian sparse regression 
+    based on Carvalho et al. (2009). Provides both R and C++ implementations 
+    of gibbs sampler for efficient posterior inference in high-dimensional 
+    sparse regression problems. The horseshoe prior offers strong shrinkage 
+    for noise coefficients while preserving large signals.
+License: GPL (>= 2)
+Imports: Rcpp, microbenchmark
+Suggests: knitr, rmarkdown, ggplot2, kableExtra, broom, bootstrap, MASS, DAAG, coda, lpSolve
+LinkingTo: Rcpp
+RoxygenNote: 7.3.3
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: http://github.com/1160574378-lab/SA25204164
+BugReports: http://github.com/username/SA25204164/issues
+
+
